@@ -27,7 +27,9 @@
 #include <time.h> 
 #include "detect_impl.h"
 #include <iostream>
-#include <chrono>
+#if __cplusplus > 199711L
+#include <chrono>*/
+#endif
 
 namespace gr {
   namespace radio_astro {

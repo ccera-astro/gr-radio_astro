@@ -27,7 +27,10 @@
 #include <time.h> 
 #include "vmedian_impl.h"
 #include <iostream>
+
+#if __cplusplus > 199711L
 #include <chrono>
+#endif
 
 namespace gr {
   namespace radio_astro {
